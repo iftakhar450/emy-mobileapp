@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "nativescript-drop-down@4.0.0",
+      "E:\\Development\\Nativscript\\emy"
+    ]
+  ],
+  "_from": "nativescript-drop-down@4.0.0",
+  "_id": "nativescript-drop-down@4.0.0",
+  "_inBundle": false,
+  "_integrity": "sha1-hXt5Q/UMcNTTFejhxaCep3ISl5U=",
+  "_location": "/nativescript-drop-down",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nativescript-drop-down@4.0.0",
+    "name": "nativescript-drop-down",
+    "escapedName": "nativescript-drop-down",
+    "rawSpec": "4.0.0",
+    "saveSpec": null,
+    "fetchSpec": "4.0.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-drop-down/-/nativescript-drop-down-4.0.0.tgz",
+  "_spec": "4.0.0",
+  "_where": "E:\\Development\\Nativscript\\emy",
+  "author": {
+    "name": "Peter Staev",
+    "email": "peter@tangrasoft.com"
+  },
+  "bugs": {
+    "url": "https://github.com/PeterStaev/NativeScript-Drop-Down/issues"
+  },
+  "contributors": [
+    {
+      "name": "Dick Smith",
+      "url": "https://github.com/DickSmith"
+    }
+  ],
+  "description": "A NativeScript DropDown widget.",
+  "homepage": "https://github.com/PeterStaev/NativeScript-Drop-Down#readme",
+  "keywords": [
+    "NativeScript",
+    "DropDown",
+    "Spinner",
+    "tangra"
+  ],
+  "license": "Apache-2.0",
+  "main": "drop-down",
+  "name": "nativescript-drop-down",
+  "nativescript": {
+    "platforms": {
+      "ios": "4.0.0",
+      "android": "4.0.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Interface"
+    }
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterStaev/NativeScript-Drop-Down.git"
+  },
+  "typings": "drop-down.d.ts",
+  "version": "4.0.0"
+}

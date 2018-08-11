@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\logo.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\background.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-hdpi\\background.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\checkempty.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-hdpi\\checkempty.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\looking.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-hdpi\\looking.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\checked.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-hdpi\\checked.png"
+    }
+]

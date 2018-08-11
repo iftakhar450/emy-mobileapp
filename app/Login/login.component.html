@@ -1,0 +1,31 @@
+<ActionBar title="Login"></ActionBar>
+<ActivityIndicator
+        width="100"
+        height="100"
+        [busy]="isBusy"
+        class="activity-indicator"  style="color:red">
+
+</ActivityIndicator>
+<StackLayout class="loginpage">
+
+
+
+    <GridLayout class="signin_gird" columns="*, *, *,60" rows="70,70,70,70" class="loginsection"   verticalAlignment="center"  horizontalAlignment="center">
+        <TextField  hint="Enter ID" [(ngModel)]='id'  row="0" col="0" colSpan="4"  autocorrect="false"
+                   autocapitalizationType="none" required></TextField>
+        <TextField id="password" [(ngModel)]='password' row="1" col="0" colSpan="3" hint="Password"
+                   class="" secure="true" secure="true"></TextField>
+        <Image row="1" col="3" class="pimage" src="res://looking"  horizontalAlignment="center" (tap)="togglepassowrd()"></Image>
+
+        <Button class="loginbutton"  verticalAlignment="center" row="3" col="0" colSpan="4" horizontalAlignment="center" (tap)="login()"  text="{{ 'Login' | L }}" ></Button>
+    </GridLayout>
+<!--<GridLayout columns="*" rows="*,*,*" verticalAlignment="bottom" horizontalAlignment="center">
+
+   <TextField hint="Enter ID" row="0" col="0" [(ngModel)]='id' keyboardType="ID" autocorrect="false"
+              autocapitalizationType="none" required></TextField>
+   <TextField hint="password" row="0" col="0" [(ngModel)]='password' keyboardType="ID" autocorrect="false"
+              autocapitalizationType="none" required></TextField>
+
+</GridLayout>-->
+
+</StackLayout>

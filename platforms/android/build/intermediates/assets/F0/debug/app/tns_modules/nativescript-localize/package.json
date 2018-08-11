@@ -1,0 +1,114 @@
+{
+  "_from": "nativescript-localize",
+  "_id": "nativescript-localize@3.0.3",
+  "_inBundle": false,
+  "_integrity": "sha1-ZERCfqbDTTLfCXLTJjkJuGIU+KM=",
+  "_location": "/nativescript-localize",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-localize",
+    "name": "nativescript-localize",
+    "escapedName": "nativescript-localize",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-localize/-/nativescript-localize-3.0.3.tgz",
+  "_shasum": "6444427ea6c34d32df0972d3263909b86214f8a3",
+  "_spec": "nativescript-localize",
+  "_where": "E:\\Development\\Nativscript\\emy",
+  "author": {
+    "name": "Ludovic Fabrèges",
+    "email": "ludovic.fabreges@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/lfabreges/nativescript-localize/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Eddy Verbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "nativescript-hook": "^0.2.4",
+    "shorthash": "0.0.2",
+    "simple-plist": "^0.3.0",
+    "sprintf-js": "^1.1.1"
+  },
+  "deprecated": false,
+  "description": "Native internationalization plugin for NativeScript using native capabilities of each platform",
+  "devDependencies": {
+    "@angular/compiler": "~5.2.0",
+    "@angular/compiler-cli": "~5.2.0",
+    "@angular/core": "~5.2.0",
+    "@types/mkdirp": "^0.5.1",
+    "@types/node": "^7.0.0",
+    "@types/sprintf-js": "^1.1.0",
+    "rxjs": "^5.5.0",
+    "tns-core-modules": "^4.0.0",
+    "tns-platform-declarations": "^4.0.0",
+    "tslint": "^5.8.0",
+    "typescript": "~2.6.2",
+    "zone.js": "~0.8.4"
+  },
+  "homepage": "https://github.com/lfabreges/nativescript-localize",
+  "keywords": [
+    "nativescript",
+    "internationalization",
+    "i18n",
+    "translation",
+    "localization",
+    "l10n",
+    "angular",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nativescript-localize",
+  "nativescript": {
+    "platforms": {
+      "android": "4.0.0",
+      "ios": "4.0.0"
+    },
+    "hooks": [
+      {
+        "type": "before-prepare",
+        "script": "hooks/before-prepare.js",
+        "inject": true
+      },
+      {
+        "type": "before-watchPatterns",
+        "script": "hooks/before-watchPatterns.js",
+        "inject": true
+      }
+    ]
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfabreges/nativescript-localize.git"
+  },
+  "scripts": {
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Update CHANGELOG.md\"",
+    "compile": "tsc -p hooks && tsc && ngc -p tsconfig.aot.json",
+    "postinstall": "node postinstall.js",
+    "preuninstall": "node preuninstall.js",
+    "preversion": "npm run compile",
+    "publish": "git push origin --tags && npm run changelog && git push origin",
+    "tslint": "tslint **/*.ts"
+  },
+  "typings": "index.d.ts",
+  "version": "3.0.3"
+}

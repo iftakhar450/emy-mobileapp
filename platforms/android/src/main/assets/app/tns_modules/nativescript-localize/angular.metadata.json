@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":4,"metadata":{},"exports":[{"from":"./src/localize","export":["localize"]},{"from":"./src/localize.module","export":["NativeScriptLocalizeModule"]},{"from":"./src/localize.pipe","export":["LocalizePipe"]}]}]

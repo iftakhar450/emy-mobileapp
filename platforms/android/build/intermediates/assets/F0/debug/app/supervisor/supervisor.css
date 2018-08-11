@@ -1,0 +1,89 @@
+ActionBar{
+    background-color: purple;
+    color: white;
+
+}
+
+.lableButton{
+
+    width:80%;
+   padding: 25;
+    background-color: purple;
+    color: white;
+    font-size: 22;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.datelable{
+
+    width:80%;
+    background-color: white;
+    color: purple;
+    font-size: 20;
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.absolutelayout{
+
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    color: purple;
+}
+.back{
+    background-color: purple;
+    color: white;
+    width: 80%;
+}
+.username{
+
+    text-align: center;
+    font-size: 16;
+    font-weight: bold;
+    color: black;
+    margin-top: 20;
+    margin-bottom: 20;
+    margin-left: 5;
+
+}
+.side_time{
+    text-align: center;
+    font-size: 14;
+
+    color: purple;
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 5;
+
+}
+.checkbox{
+    width: 30;
+    height: 30;
+
+}
+.profession{
+
+    text-align: center;
+
+    color: black;
+    margin-top: 20;
+    margin-bottom: 20;
+
+}
+#selectworkedside{
+
+     width: 90%;
+    background-color: white;
+    border-width: 2;
+    border-color: purple;
+
+
+}
+.line{
+    background-color: purple;
+    height: 1;
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+ActionBar{
+
+    background-color: purple;
+    color: white;
+
+}
+.title{
+    background-color: purple;
+    color: white;
+    width: 100%;
+
+
+
+
+}
+
+.username{
+
+    text-align: center;
+    font-size: 16;
+
+    color: black;
+    margin-top: 20;
+    margin-bottom: 20;
+    margin-left: 5;
+
+}
+.side_time{
+    text-align: center;
+    font-size: 14;
+
+    color: #800080;
+    margin-top: 10;
+    margin-bottom: 10;
+    margin-left: 5;
+
+}
+
+.side_header{
+
+    text-align: center;
+    color: white;
+    background-color:#9932CC;
+}

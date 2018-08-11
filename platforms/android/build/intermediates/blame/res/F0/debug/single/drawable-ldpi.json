@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi\\checkempty.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-ldpi\\checkempty.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi\\background.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-ldpi\\background.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi\\looking.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-ldpi\\looking.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi\\checked.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-ldpi\\checked.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi\\logo.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-ldpi\\logo.png"
+    },
+    {
+        "merged": "E:\\Development\\Nativscript\\emy\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-ldpi\\icon.png",
+        "source": "E:\\Development\\Nativscript\\emy\\platforms\\android\\src\\main\\res\\drawable-ldpi\\icon.png"
+    }
+]

@@ -1,0 +1,83 @@
+<ActionBar title="Supervisor Portal">
+    <NavigationButton text="Go Back" android.systemIcon="ic_menu_back" (tap)="goBack()"></NavigationButton>
+</ActionBar>
+<StackLayout class="title" verticalAlignment="top" horizontalAlignment="center">
+
+    <GridLayout columns="*" rows="80,*">
+        <GridLayout col="0" row="0" columns="60,*,60" rows="*,*" style="width:100%;height: 100% ">
+
+            <Label col="0" row="0" rowSpan="2" text="Back" (tap)="previous_date()" verticalAlignment="center"
+                   horizontalAlignment="center"
+                   style="width: 100%;font-weight:bold; text-align: center;padding-top:25;padding-bottom:25"></Label>
+
+            <Label col="1" row="0" text="View Attendence By Date"
+                   style="width: 100%;background-color:white;text-align:center;color: purple" verticalAlignment="center"
+                   horizontalAlignment="center"></Label>
+
+            <Label col="1" row="1" [text]="showdate"
+                   style="width: 100%;font-weight:bold; text-align: center;background-color:white;font-size: 20;color: purple"
+                   verticalAlignment="center" horizontalAlignment="center"></Label>
+
+            <Label col="2" row="0" verticalAlignment="center" (tap)="next_date()" horizontalAlignment="center"
+                   rowSpan="2" text="Next"
+                   style="width: 100%;font-weight:bold; text-align:center;padding-top:25;padding-bottom:25 "></Label>
+
+
+        </GridLayout>
+
+        <StackLayout col="0" row="1" style="background-color: white">
+
+            <GridLayout columns="*,*" rows="20"   style="width: 100%"
+                        verticalAlignment="center" horizontalAlignment="center"   >
+                <Label  col="0" row="0"  style="color: white;background-color: #9932CC;text-align: center;font-weight: bold" text="Name"></Label>
+                <Label   col="1" row="0"  style="color: white;background-color: #9932CC;text-align: center; font-weight: bold" text="Status"></Label>
+            </GridLayout>
+
+                <ListView  [items]="today_attendence_status" separatorColor="#800080"  style="height: 100%;width: 100%" (itemTap)="onviewlisttap($event)">
+                    <ng-template let-item="item" let-i="index">
+                        <GridLayout columns="*,*" rows="*,*,*"   style="width: 100%;height: 100%"
+                                    verticalAlignment="center" horizontalAlignment="center"   >
+                            <Label  class="username" col="0" row="0"  style="color: purple" [text]="item.name"></Label>
+                            <Label  class="username" col="1" row="0"  style="color: purple" [text]="item.status"></Label>
+
+                            <GridLayout  row="2" col="0" colSpan="2 "  [id]="item.id" columns="*,*,*" rows="*,*"
+                                         style="width: 100%;height: 100%"  verticalAlignment="center" horizontalAlignment="center" visibility="collapsed" >
+
+                                <Label class="side_header"   col="0" row="0"  text="Attendent"></Label>
+                                <Label  class="side_header" col="1" row="0"  text="Site" *ngIf="item.sidename!=''"></Label>
+                                <Label  class="side_header"  col="2" row="0"  text="Overtime" *ngIf="item.overtime!=''"></Label>
+
+                                <Label  class="side_time" col="0" row="1"  [text]="item.attendent"></Label>
+                                <Label  class="side_time" col="1" row="1"  [text]="item.sidename"></Label>
+                                <Label  class="side_time" col="2" row="1"  [text]="item.overtime"></Label>
+
+                            </GridLayout>
+                        </GridLayout>
+
+
+
+
+
+
+                    </ng-template>
+                </ListView>
+
+
+
+
+
+        </StackLayout>
+        <AbsoluteLayout id="notattendencefound" col="0" row="1"  style="width: 100%;height: 100%;background-color: white" verticalAlignment="center"  horizontalAlignment="center" visibility="collapsed">
+            <GridLayout columns="*" rows="*"   style="width: 100%;height: 100%"
+                        verticalAlignment="center" horizontalAlignment="center"   >
+                <Label  class="username" col="0" row="0" style="color: purple"  text="No Record Found"  verticalAlignment="center" horizontalAlignment="center" ></Label>
+
+
+
+
+            </GridLayout>
+
+        </AbsoluteLayout>
+    </GridLayout>
+
+</StackLayout>

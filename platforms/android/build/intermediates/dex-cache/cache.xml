@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-fragment-26.0.0-alpha1_578c0a815b1f7ec505878a0daa1abf01d7da6320.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-media-compat-26.0.0-alpha1_4bb3204dfc32f7eef62f3ee26c2cdcd413228c12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_a2bfcbdbd6883c79ea3d77ad78543eeda0238aca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Android\Android SDK\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\support-annotations-26.0.0-alpha1_b950f110368df8767b40b880ce22accb52a8c2a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\widgets-release\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-widgets-release_63076c21451e9b32abcb6060312886c1b21fa3d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-ui-26.0.0-alpha1_fcd020f23c5bfd4927d75f9eb19b8b67980e69fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-compat-26.0.0-alpha1_58ab377dc4a9d7f8b4ad982891d309bb54e4eb42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-recyclerview-v7-26.0.0-alpha1_cab3a4be5f6ccd393ec630b64441d20bd3673cd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-core-utils-26.0.0-alpha1_bc29da46968f71a71b2a482dd3bde0565b773778.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-appcompat-v7-26.0.0-alpha1_9f150207caf50fff9a1b817c62b56953b339d3f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-animated-vector-drawable-26.0.0-alpha1_afc6413f5e61133a29a011183f8e3ee7bc5d5dd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-support-v4-26.0.0-alpha1_ce3eecf502dea6b253e99e64491a40e6bef63e92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\nativescript-optimized\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\intermediates-exploded-aar-nativescript-optimized_d2c5db7a889b7c272c51f44905ae615d9c2447a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\transition\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-transition-26.0.0-alpha1_f500826a0217de7512196857043791d585f749d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Development\Nativscript\emy\platforms\android\build\intermediates\exploded-aar\com.android.support\design\26.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="E:\Development\Nativscript\emy\platforms\android\build\intermediates\pre-dexed\F0\debug\com.android.support-design-26.0.0-alpha1_1c29dcf050f300746b4fe9f537898a9b66b06025.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,32 @@
+ActionBar{
+    background-color:#800080;
+    color: white;
+}
+.loginpage{
+
+    height: 100%;
+    width: 100%;
+    background-color:#9932CC;
+}
+.loginsection{
+    width: 90%;
+  margin-top: 15%;
+    background-color: white;
+    border: white;
+    border-radius: 15;
+
+
+
+}
+.loginbutton{
+
+background-color: #800080;
+    color: white;
+}
+.pimage{
+    height: 30;
+    width: 30;
+
+
+
+}
